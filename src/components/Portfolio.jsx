@@ -49,8 +49,8 @@ const Portfolio = () => {
             {
                 portfolio.map(({id, src}) => (
 
-                    <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                        <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
+                    <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-105 duration-300">
+                        <img src={src} alt="" className="rounded-md" />
                         <div className="flex items-center justify-center">
                             <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">View</button>
                         </div>
