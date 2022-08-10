@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
@@ -11,7 +11,7 @@ const SocialLinks = () => {
             id: 1,
             child: (
                 <>
-                    LinkedIn <FaLinkedin size={30} />
+                    Twitter <FaTwitter size={30} />
                 </>
             ),
             href: 'https://linkedin.com',
@@ -33,14 +33,15 @@ const SocialLinks = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            // drag resume pdf into public then href = './resume.pdf'
+            // drag resume pdf into public then href: './resume.pdf'
+            href: '',
             style: 'rounded-br-md',
             download: true,
         },
     ]
 
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
         <ul>
 
             {links.map(({id, child, href, style, download}) => (
@@ -49,6 +50,7 @@ const SocialLinks = () => {
                     <a href={href} className="flex justify-between items-center w-full text-white" 
                     download={download}
                     target="_blank"
+                    rel="noreferrer"
                     >
                         {child}
                     </a>
