@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
 import Camera1 from '../assets/Camera1.jpg';
 import Camera2 from '../assets/Camera2.jpg';
 import Camera3 from '../assets/Camera3.jpg';
@@ -12,27 +13,33 @@ const Portfolio = () => {
     const portfolio = [
         {
             id: 1,
-            src: Camera1
+            img: Camera1,
+            link: "https://www.youtube.com/embed/BfN2U9byZSM"
         },
         {
             id: 2,
-            src: Camera2
+            img: Camera2,
+            link: "https://www.youtube.com/embed/XlIONpHW6I8" 
         },
         {
             id: 3,
-            src: Camera3
+            img: Camera3,
+            link: "https://www.youtube.com/embed/7YlHl5XSDYU" 
         },
         {
             id: 4,
-            src: Camera4
+            img: Camera4,
+            link: "https://www.youtube.com/embed/DcqVWPq4Ri8"
         },
         {
             id: 5,
-            src: Camera5
+            img: Camera5,
+            link: "https://www.youtube.com/embed/O7THcGM-uo4"
         },
         {
             id: 6,
-            src: Camera6
+            img: Camera6,
+            link: "https://www.youtube.com/embed/Ul5eM1Votws"
         },
     ]
 
@@ -47,12 +54,11 @@ const Portfolio = () => {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
             
             {
-                portfolio.map(({id, src}) => (
+                portfolio.map(({id, img, link}) => (
 
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-105 duration-300">
-                        <img src={src} alt="" className="rounded-md" />
                         <div className="flex items-center justify-center">
-                            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">View</button>
+                        <iframe className="rounded-md justify-center" height="250" width="360" src={link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 ))
