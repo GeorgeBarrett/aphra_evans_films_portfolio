@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Aef-Portfolio/static/css/main.b162fa09.css",
+    "main.js": "/Aef-Portfolio/static/js/main.24c2ce1a.js",
+    "static/media/Camera6.jpg": "/Aef-Portfolio/static/media/Camera6.b4766bcbf3bd59645077.jpg",
+    "static/media/Chicken.jpg": "/Aef-Portfolio/static/media/Chicken.8ea8524ef4ebbc288dea.jpg",
+    "static/media/Camera5.jpg": "/Aef-Portfolio/static/media/Camera5.652448bda52c441bed10.jpg",
+    "static/media/Sony.jpg": "/Aef-Portfolio/static/media/Sony.1b26a25c0087d70f2b46.jpg",
+    "static/media/Gimble.jpg": "/Aef-Portfolio/static/media/Gimble.afe6c63838eee0e667bb.jpg",
+    "static/media/Camera2.jpg": "/Aef-Portfolio/static/media/Camera2.9100df72ff15bcd4658f.jpg",
+    "static/media/Camera4.jpg": "/Aef-Portfolio/static/media/Camera4.37e79615c12ff279858f.jpg",
+    "static/media/Drone.jpg": "/Aef-Portfolio/static/media/Drone.8a8f6c21179da2c80d78.jpg",
+    "static/media/Lens.jpg": "/Aef-Portfolio/static/media/Lens.e3abf7b1ae1349c5fe48.jpg",
+    "static/media/Camera1.jpg": "/Aef-Portfolio/static/media/Camera1.197240b78d99f903ef27.jpg",
+    "static/media/Mic.jpg": "/Aef-Portfolio/static/media/Mic.6f34035e1e66b41db600.jpg",
+    "static/media/Camera3.jpg": "/Aef-Portfolio/static/media/Camera3.0e5906dc16118c19b602.jpg",
+    "static/media/Tripod.jpg": "/Aef-Portfolio/static/media/Tripod.d6f6665d866bb6e2acba.jpg",
+    "index.html": "/Aef-Portfolio/index.html",
+    "main.b162fa09.css.map": "/Aef-Portfolio/static/css/main.b162fa09.css.map",
+    "main.24c2ce1a.js.map": "/Aef-Portfolio/static/js/main.24c2ce1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b162fa09.css",
+    "static/js/main.24c2ce1a.js"
+  ]
+}
