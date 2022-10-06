@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
@@ -14,7 +14,7 @@ const SocialLinks = () => {
                     Twitter <FaTwitter size={30} />
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://twitter.com',
             style: 'rounded-tr-md',
         },
         {
@@ -46,7 +46,7 @@ const SocialLinks = () => {
 
             {links.map(({id, child, href, style, download}) => (
                 <li key={id} className={
-                    "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-700" + " " + style}>
+                    "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-700 " + style}>
                     <a href={href} className="flex justify-between items-center w-full text-white" 
                     download={download}
                     target="_blank"
