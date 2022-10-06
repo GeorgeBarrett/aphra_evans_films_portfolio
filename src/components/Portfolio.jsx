@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 import Camera1 from '../assets/Camera1.jpg';
 import Camera2 from '../assets/Camera2.jpg';
 import Camera3 from '../assets/Camera3.jpg';
@@ -58,7 +57,7 @@ const Portfolio = () => {
 
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg hover:scale-105 duration-300">
                         <div className="flex items-center justify-center">
-                        <iframe className="rounded-md justify-center" height="250" width="360" src={link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe title="documentary film" className="rounded-md justify-center" height="250" width="360" src={link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 ))
