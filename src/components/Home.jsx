@@ -1,5 +1,4 @@
 import React from 'react';
-import Chicken from '../assets/Chicken.jpg';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
 import Aphra from '../assets/Aphra.jpg';
@@ -27,7 +26,7 @@ const Home = () => {
             </div>
 
             <div>
-                <img src={Aphra} alt="photo of a chicken" className="rounded-2xl mx-auto w-2/5 md:w-1/2" />
+                <img src={Aphra} alt="Aphra's face" className="rounded-2xl mx-auto w-2/5 md:w-1/2" />
             </div>
 
         </div>
